@@ -97,4 +97,4 @@ print("5. Higher fares were associated with higher survival.")
 print("6. Embarked location may influence survival (see plot).")
 print("7. Strongest positive correlation with survival: Sex (female), Pclass (1st), Fare.")
 
-
+# End of analysis
