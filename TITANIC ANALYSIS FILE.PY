@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # 1. Load the data
-df = pd.read_csv("TITANIC ANALYSIS PROJECT.CSV")  # Adjust separator if needed
+df = pd.read_csv("TITANIC ANALYSIS PROJECT.CSV")  
 
 # 2. Preview the data
 print("First 5 rows:")
@@ -96,5 +96,6 @@ print("4. Younger passengers (children) had higher survival rates.")
 print("5. Higher fares were associated with higher survival.")
 print("6. Embarked location may influence survival (see plot).")
 print("7. Strongest positive correlation with survival: Sex (female), Pclass (1st), Fare.")
+
 
 # End of analysis
