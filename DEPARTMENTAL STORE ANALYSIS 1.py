@@ -102,9 +102,8 @@ top_customers = df.groupby('CustomerID')['PurchaseAmount'].sum().sort_values(asc
 #plt.title('Top 10 High-Value Customers')
 #plt.ylabel('Total Spend')
 #plt.tight_layout()
-
-
 # plt.show()
+
 
 
 
