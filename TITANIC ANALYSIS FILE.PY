@@ -88,14 +88,15 @@ if 'Embarked' in df.columns:
     plt.show()
 
 # 14. Insights summary
-print("\n--- Key Insights ---")
-print(f"1. Overall survival rate: {survival_rate:.2%}")
-print(f"2. Females survived at a much higher rate than males: \n{sex_survival}")
-print(f"3. 1st class passengers had the highest survival rate: \n{pclass_survival}")
-print("4. Younger passengers (children) had higher survival rates.")
-print("5. Higher fares were associated with higher survival.")
-print("6. Embarked location may influence survival (see plot).")
-print("7. Strongest positive correlation with survival: Sex (female), Pclass (1st), Fare.")
+--- Key Insights ---
+1. Overall survival rate
+2. Females survived at a much higher rate than males
+3. 1st class passengers had the highest survival rate
+4. Younger passengers (children) had higher survival rates.
+5. Higher fares were associated with higher survival.
+6. Embarked location may influence survival (see plot).
+7. Strongest positive correlation with survival: Sex (female), Pclass (1st), Fare.
 
 
 # End of analysis
+
