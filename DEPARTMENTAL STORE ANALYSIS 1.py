@@ -85,7 +85,7 @@ top_customers = df.groupby('CustomerID')['PurchaseAmount'].sum().sort_values(asc
 # The age distribution is visualized with a histogram, helping identify the most common customer age groups.
 # Gender-Based Spending:
 # Purchase amounts are compared between Male and Female customers using a boxplot.
-This highlights differences or similarities in spending behavior by gender.
+#This highlights differences or similarities in spending behavior by gender.
 # Product Category Preference:
 # A countplot shows which product categories are most frequently purchased.
 #Reveals customer preferences for certain categories in the departmental store.
@@ -105,5 +105,6 @@ This highlights differences or similarities in spending behavior by gender.
 
 
 # plt.show()
+
 
 
