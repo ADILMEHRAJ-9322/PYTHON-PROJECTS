@@ -101,7 +101,7 @@ plt.ylabel('Director')
 plt.show()
 print("Result: These directors have the most titles on Netflix.")
 
-# Step 11: Correlation Heatmap (Numerical Features)
+ Step 11: Correlation Heatmap (Numerical Features)
 plt.figure(figsize=(6,4))
 sns.heatmap(df[['Duration_num', 'Year_Added']].corr(), annot=True, cmap='Blues')
 plt.title('Correlation Heatmap')
@@ -109,7 +109,6 @@ plt.show()
 print("Result: There is little correlation between release year and duration.")
 
 # Step 12: Insights Summary
-print("""
 Key Insights:
 - Movies outnumber TV Shows on Netflix.
 - The US, India, and UK are the largest content contributors.
@@ -119,4 +118,3 @@ Key Insights:
 - Most movies are 80-120 minutes; most TV shows have 1-2 seasons.
 - A few directors are especially prolific.
 - No strong correlation between release year and duration.
-""")
