@@ -69,8 +69,8 @@ plt.grid(True)
 plt.tight_layout()
 plt.show()
 
-# Step 8: High-Value Customers
-# top_customers = df.groupby('CustomerID')['PurchaseAmount'].sum().sort_values(ascending=False).head(10)
+Step 8: High-Value Customer
+top_customers = df.groupby('CustomerID')['PurchaseAmount'].sum().sort_values(ascending=False).head(10)
 
 
 # # HERE ARE THE KEY INSIGHTS FROM THE CODE IN PROJECT DEPARTMENTAL STORE:
@@ -102,5 +102,6 @@ plt.show()
 # plt.title('Top 10 High-Value Customers')
 # plt.ylabel('Total Spend')
 # plt.tight_layout()
+
 
 # plt.show()
